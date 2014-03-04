@@ -109,6 +109,15 @@ div.main_content > p > a:hover {
   text-decoration: none;
 }
 
+/* footer */
+footer {
+  float: right;
+}
+footer:before {
+  content: " ";
+  display: block;
+}
+
 /* dynamic sizing */
 @media (max-width:767px) {
   .header_heading{
@@ -119,11 +128,11 @@ div.main_content > p > a:hover {
     padding: 0;
     margin: 0 -10px;
   }
-/*  ul.header_nav > li > a {
-    padding: 0;
-  }*/
   div.main_content {
     float: left;
+  }
+  footer {
+    bottom: 0;
   }
 }
 
@@ -133,12 +142,12 @@ div.main_content > p > a:hover {
     position: fixed;
     top: 0;
   }
-  footer {
+/*  footer {
     position: fixed;
     bottom: 0;
     float: right;
   }
-  /* Start the vertical centering */
+*/  /* Start the vertical centering */
   div.main_content {
     vertical-align: middle;
   }
