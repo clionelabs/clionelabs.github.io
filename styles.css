@@ -67,7 +67,7 @@ ul.header_nav > li > a:focus  {
 /* main content */
 
 div.main_content {
-  padding: 0 20px;
+  padding: 0 20px 30px 20px;
 }
 
 div.main_content > .main_content_heading {
