@@ -112,6 +112,7 @@ div.main_content > p > a:hover {
 /* footer */
 footer {
   float: right;
+  padding: 0 20px;
 }
 footer:before {
   content: " ";
