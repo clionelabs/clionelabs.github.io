@@ -18,7 +18,7 @@ div.container {
 /* top part */
 header {
   background-color: #333;
-  padding: 0 20px;
+  padding: 10px 20px;
 }
 
 .header_heading {
@@ -139,7 +139,6 @@ footer:before {
 @media (min-width: 768px) {
   /* Pull out the header and footer */
   header {
-    position: fixed;
     top: 0;
   }
 /*  footer {
