@@ -7,7 +7,7 @@ body {
   background-color: #eee;
   color: #333;
   text-align: left;
-  font-size: 28px;
+  font-size: 22px;
   font-family: 'Esteban', serif;
 }
 
@@ -23,7 +23,7 @@ header {
 }
 
 .header_heading {
-  font-size: 50px;
+  font-size: 40px;
   font-family: 'Open Sans', sans-serif;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -43,7 +43,7 @@ div.main_content {
 
 div.main_content > .main_content_heading {
   margin-top: 50px;
-  font-size: 30px;
+  font-size: 26px;
   font-family: 'Open Sans', sans-serif;
   /*font-weight: 300;*/
 }
@@ -73,7 +73,10 @@ div.main_content > p > a:hover {
 }
 
 .btn {
-  padding: 10px 20px;
+  width: 200px;
+  padding: 10px 40px;
+  margin-right: 20px;
+  margin-bottom: 10px;
   font-family: 'Open Sans', sans-serif;
   color: #eee;
   text-shadow: none;
@@ -88,6 +91,27 @@ div.main_content > p > a:hover {
   cursor: pointer;
   background-image: none;
   text-decoration: none;
+  float: left;
+}
+
+.btn-outline {
+  width: 200px;
+  padding: 10px 20px;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  text-shadow: none;
+  /*background-color: #333;*/
+  border: 1px solid #333;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+  border-color: #ccc;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  text-decoration: none;
+  float: left;
 }
 
 /* footer */
@@ -112,6 +136,14 @@ footer:before {
   }
   div.main_content {
     float: left;
+  }
+  .btn {
+    width: 100%;
+    display: block;
+  }
+  .btn-outline {
+    width: 100%;
+    display: block;
   }
   footer {
     bottom: 0;
