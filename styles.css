@@ -58,7 +58,7 @@ div.main_content > ul > li {
 
 div.main_content > p > a {
   color: #333;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 div.main_content > p > a:hover {
