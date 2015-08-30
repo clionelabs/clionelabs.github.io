@@ -42,7 +42,7 @@ div.main_content {
 }
 
 div.main_content > .main_content_heading {
-  margin-top: 50px;
+  margin-top: 80px;
   font-size: 26px;
   font-family: 'Open Sans', sans-serif;
   /*font-weight: 300;*/
@@ -66,7 +66,7 @@ div.main_content > p > a:hover {
 }
 
 .job_title {
-  margin-top: 30px;
+  margin-top: 50px;
   font-size: 25px;
   font-family: 'Open Sans', sans-serif;
   text-decoration: underline;
@@ -157,9 +157,3 @@ footer:before {
     width: 750px;
   }
 }
-
-
-
-
-
-
